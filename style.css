@@ -6,7 +6,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: black;
+  background: url(dark-bg.jpg) no-repeat center ;
+  background-size: cover;
+  -webkit-background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,7 +16,7 @@ body {
 }
 
 .container {
-  background-color: rgb(17, 17, 27);
+  background-color: rgba(0, 0, 0, 0.658);
   width: 488px;
   height: 488px;
   border-radius: 18px;
@@ -48,6 +50,10 @@ body {
   background-color: transparent;
   color: white;
   margin-bottom: 10px;
+}
+
+.container .form-group input::placeholder{
+  color: rgb(207, 206, 206);
 }
 
 .container .form-group i {
